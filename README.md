@@ -3,12 +3,14 @@
 
 A node module for the 911 Enable SOAP API V2
 
-To use require the module and provide the API details.  For help tracking down this information contact 911Enable Support:
+To use this module you will need to contact 911 Enable's Support team for API credentials and documentation.
 
-	var e911     = require('./e911SOAP')({
+To use require the module and provide the API details:
 
-		wsdl         : path.join(__dirname, _private.wsdlFile),	// path to wsdl file
-		endpoint     : httpEndpoint,							// api endpoint
+	var e911 = require('./e911SOAP')({
+
+		wsdl         : path.join(__dirname, wsdlFile),	// path to wsdl file
+		endpoint     : httpEndpoint,					// api endpoint
 		httpUsername : httpUsername,
 		httpPassword : httpPassword,
 		username     : username,
