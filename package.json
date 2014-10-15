@@ -1,0 +1,16 @@
+{
+  "name": "911enable-soap",
+  "version": "0.0.1",
+  "description": "A node module for the 911 Enable SOAP API V2",
+  "main": "e911SOAP.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Smith",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^0.9.0",
+    "request": "^2.45.0",
+    "soap": "^0.5.1"
+  }
+}
